@@ -1,0 +1,38 @@
+
+.countrySection{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color:black;
+    padding:10px;
+    font-size: 12px;
+    clear: both;
+}
+
+.btnServerSelection{
+    border:1px solid #ccc;
+    padding:2px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+.connectionStatus{
+    border:1px solid #006b9f;
+    background-color: white;
+    color:white;
+    width: 265px;
+    height: 75px;
+    display: flex;
+    flex:1;
+    margin: auto;
+    font-size:14px;
+    padding:10px;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(0, 145, 48, 1) 17%, rgba(0, 129, 145, 1) 81%);
+    
+}
+
+.image{
+    border-radius: 18px;
+}

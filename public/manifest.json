@@ -1,0 +1,24 @@
+  {
+    "manifest_version": 3,
+    "name": "OysterVPN Browser Extension",
+    "short_name": "OysterVPN",
+    "version": "1.0.0",
+    "description": "OysterVPN Browser Extension",
+    "icons": {
+      "16": "next-assets/VPN-Icon-Green.png",
+      "48": "next-assets/VPN-Icon-Green.png",
+      "128": "next-assets/VPN-Icon-Green.png"
+    },
+    "minimum_chrome_version": "46",
+    "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+    },
+    "permissions": [
+      "activeTab",
+      "nativeMessaging",
+      "proxy"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    }
+  }

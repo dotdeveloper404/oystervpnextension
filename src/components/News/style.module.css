@@ -1,0 +1,17 @@
+.newContainer{
+    margin-top: 106px;
+    text-align: center;
+    padding: 21px;
+    font-size: 12px;
+    color:black;
+    border-top: 1px solid #ccc;
+}
+
+.newsDescription{
+    padding-top:10px;
+
+}
+
+.newsLink{
+    color:#008960;
+}
